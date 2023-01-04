@@ -1,0 +1,32 @@
+.expense-list{
+    display: grid;
+    grid-gap: 1rem; 
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.date{
+    font-size: 10px;
+}
+.expense{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.expense-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.expense-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exp_form{
+    display: flex;
+    justify-content: center;
+}

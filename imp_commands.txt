@@ -1,0 +1,11 @@
+API- expense-income-note-tracker
+
+npm install -g heroku
+heroku login
+
+get: 
+https://expense-income-note-tracker.herokuapp.com/expense/get_expenses/
+
+Heruku: https://dashboard.heroku.com/apps/expense-income-note-tracker
+
+https://www.mygreatlearning.com/pg-program-software-engineering-course
